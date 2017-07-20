@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pesquisa_reserva"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.master.appreservaquadramaterialesportivo.PesquisaReserva">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Reserva de quadra na UFSCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:fontFamily="serif"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"/>
+
+
+        <TextView
+            android:text="Insira o código"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:ems="10"
+            android:id="@+id/txt_pesquisa"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:text="Buscar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:id="@+id/button7"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/editText3"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:text="Ver Clima"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button21" />
+
+        <Button
+            android:text="Voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button7"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="20sp"
+            android:id="@+id/button13" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

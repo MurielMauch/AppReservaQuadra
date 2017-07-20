@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppReservaQuadra</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="lbl_nome">NomeCompleto</string>
+    <string name="lbl_identificao">Identificacao</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_nomecompleto">Nome Completo</string>
+    <string name="lbl_senha">Senha</string>
+    <string name="Data" />
+    <string name="temperature">temperature</string>
+    <string name="condition">condition</string>
+    <string name="location">location</string>
+</resources>
