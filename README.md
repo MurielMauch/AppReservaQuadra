@@ -3,7 +3,7 @@
 <p>Sua principal funcionalidade então é a reserva de quadra por um "cliente". Se a reserva já existe para um determinado horário e quadra, ela é colocada em uma fila. Quando a reserva atual é cancelada a primeira da fila passa a ser a reserva válida.</p>
 <h2>Diagrama de Classes</h2>
 <br>
-<img height="700" src="https://github.com/MurielMauch/AppReservaQuadra/blob/master/diagrama%20de%20classes.PNG" />
+<img src="https://github.com/MurielMauch/AppReservaQuadra/blob/master/diagrama%20de%20classes.PNG" />
 <h2>Diagrama de Casos de Uso</h2>
 <br>
-<img height="500" src="https://github.com/MurielMauch/AppReservaQuadra/blob/master/diagrama%20de%20casos%20de%20uso.PNG" />
+<img src="https://github.com/MurielMauch/AppReservaQuadra/blob/master/diagrama%20de%20casos%20de%20uso.PNG" />
